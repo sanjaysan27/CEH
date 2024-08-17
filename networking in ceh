@@ -3,4 +3,5 @@ iwconfig                             (shows the wifi connected ip details)
 ifconfig down                        (makes the network down we will change the configuration of the netowrk)
 ifconfig up                          (turns on the network connection)
 netdiscover -r (range)               (dicover the client networks in the same network)
-192.168.201.134
+arp -a                               (shows the arp table)
+
