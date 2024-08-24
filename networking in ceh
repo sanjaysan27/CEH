@@ -19,6 +19,7 @@ net.show                             (show the client network details it is targ
 set (option name) true or false      (modify the bettercap modules)
 arp.spoof on                         (to start the target for attack)
 net.sniff on                         (to shows the packets what going on target machine)
+bettercap -iface wlan0 (or) eth0 -caplet arpspoof.acp (filename)       (we have to past all above commands in a cap file then anytime we run a file like this in one line )
 
 
 
