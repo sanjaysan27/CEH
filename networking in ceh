@@ -11,6 +11,8 @@ arpspoof -i wlan0(for wifi) or eth0 (wired) -t 192.168.201.158 192.168.201.61   
 echo 1 > /proc/sys/net/ipv4/ip_forward                                            (for port forwarding)
 service apache2 start                 (to start the web server in kali linux apache2 is the kali's own webserver)
 
+
+
 BETTERCAP TOOL>>>>>>>
 bettercap                            (shows the bettercap details)
 bettercap -iface wlan0               (shows the wifi network gateway monitor as started)
