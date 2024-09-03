@@ -24,7 +24,7 @@ net.sniff on                         (to shows the packets what going on target 
 bettercap -iface wlan0 (or) eth0 -caplet arpspoof.acp (filename)       (we have to past all above commands in a cap file then anytime we run a file like this in one line )
 bettercap -iface wlan0 (or) eht0                                       (to open a bettercap ui and if not installed already, then type ui.update)
 http-ui                              (open a bettercap.ui)
-
+set net.sniff.output /root/and folder name                             (to store a captured data from bettercap thats stores in this folder)
 
 
 
