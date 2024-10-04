@@ -25,4 +25,9 @@ service ssh status                               (show the system service)
 zip                                              (creates and extracts zip archives)
 unzip                                            (extracts zip archives)
 df -h                                            (shown the disk space)
-du -sh                        
+du -sh (eg, du -sh /root/Downloads)              (shows the space with human readable form kb and mb)
+mv san.txt snjay.txt                             (change old file to new file name)
+rm san.txt                                       (remove the files)
+rm -r san                                        (delete the directory)
+chmod +x san.sh or .cap                          (change mode of the files ,normal to executable)
+
