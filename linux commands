@@ -24,3 +24,5 @@ gunzip my_file.txt.gz                            (decompress the file)
 service ssh status                               (show the system service)
 zip                                              (creates and extracts zip archives)
 unzip                                            (extracts zip archives)
+df -h                                            (shown the disk space)
+du -sh                        
