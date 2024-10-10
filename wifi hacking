@@ -7,3 +7,9 @@ ifconfig wlan0 down -(enable the monitor mode )
 airmon-ng start wlan0 --(start the monitor mode)
 airmon-ng stop wlan0  --(stop the monitor mode)
 service NetworkManager restart --(restart affter perform a attacks and practices)
+
+
+
+
+installing airgeddon.sh
+git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
