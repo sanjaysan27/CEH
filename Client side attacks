@@ -1,0 +1,8 @@
+BACKDOORS>>>>>>>>>>>>
+> backdoor is a program allows us to remotly controls the target systems 
+> Execute system commands 
+>ACcess system resources like, storage ,webcam ,keyboard, etc
+
+PAYLOADS>>>>>>>>>>>
+>this also same like Backdoor
+> it will created by the program msfvenom
