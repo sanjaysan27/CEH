@@ -1,7 +1,17 @@
 >>>>>>>>>>>>>>>NETWORK MAPPER>>>>>>>>
-scan out network for target  - arp-scan -l
+scan ut network for target  - arp-scan -l
 plain scan:  nmap 192.186.183.123  (it will shows the plain informations like,open ports,state -oopen/close, servicenames ,timw taken for scan)
 nmap 192.186.238.232-243   (for multiple scan targets in our netwrok 232 to 243)
 nmap -iL target.txt       (include list -iL to scan a list of targets)
 nmap 192.169.159.124-130 --exclude 192.168.159.127  (this scan skip that exclude ip adress)
 nmap 192.168.159.124-130 --excludefile omit.txt   (omit that ipaddress in this file)
+nmap 192.168.159.129 -sP     (- sP s and capital P shows the host is up or down)
+nmap -sL 192.168.159.129    (shows if dns sever is there in that target or not)
+nmap 192.168.159.129 -p 21   and use , to add multiple ports (scan particular port for particular result)
+nmap 192.168.159.129 -p-    (scan the entire ports in the targets)
+nmap 192.168.159.129 --top-ports 14    (scan the top how many ports we need to scan)
+SYN - synchronize
+ACK - acknowledge
+RST -reset
+FIN - Final
+NULL -Nothing
