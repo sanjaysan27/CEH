@@ -1,0 +1,4 @@
+>>>>>>>>>>>>>>>NETWORK MAPPER>>>>>>>>
+scan out network for target  - arp-scan -l
+plain scan:  nmap 192.186.183.123  (it will shows the plain informations like,open ports,state -oopen/close, servicenames ,timw taken for scan)
+nmap 192.186.238.232-243   (for multiple scan targets in our netwrok 232 to 243)
