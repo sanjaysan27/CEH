@@ -30,4 +30,6 @@ mv san.txt snjay.txt                             (change old file to new file na
 rm san.txt                                       (remove the files)
 rm -r san                                        (delete the directory)
 chmod +x san.sh or .cap                          (change mode of the files ,normal to executable)
+nano target.txt                                  (to create a files, ctrl + o to save a file)
+
 
