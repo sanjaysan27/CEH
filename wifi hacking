@@ -1,12 +1,13 @@
 WIFI HACKING 
 
-
 WPA -- this used a tkip (Temporary Key Integrity Protocol)
 WPA2 -- this used a ccmp
 ifconfig wlan0 down -(enable the monitor mode )
 airmon-ng start wlan0 --(start the monitor mode)
 airmon-ng stop wlan0  --(stop the monitor mode)
 service NetworkManager restart --(restart affter perform a attacks and practices)
+SSID - Service Set identifier
+BSID - Basic set Identifier
 
 
 
